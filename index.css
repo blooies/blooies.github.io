@@ -1,0 +1,209 @@
+/* line 4, index.scss */
+body {
+  font-family: "quicksand";
+}
+
+/* line 8, index.scss */
+#header {
+  text-align: center;
+}
+/* line 10, index.scss */
+#header h1 {
+  font-family: 'pathway gothic one';
+  font-size: 60px;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0;
+  padding: 0;
+}
+/* line 19, index.scss */
+#header li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* line 25, index.scss */
+.container {
+  width: 1000px;
+  height: 200px;
+  margin: 40px auto;
+}
+
+/* line 31, index.scss */
+#nav {
+  text-transform: uppercase;
+  width: 20%;
+  height: 400px;
+  float: left;
+  z-index: 100;
+}
+/* line 37, index.scss */
+#nav li {
+  font-size: 25px;
+  margin-top: 30px;
+  color: #000;
+  position: relative;
+  left: 0;
+  transition: all .2s;
+}
+
+/* line 47, index.scss */
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 52, index.scss */
+a {
+  text-decoration: none;
+  color: #31769b;
+  position: relative;
+  top: 0;
+}
+
+/* line 58, index.scss */
+a:hover {
+  font-weight: bold;
+}
+
+/* line 62, index.scss */
+#page {
+  width: 70%;
+  height: 700px;
+  background-color: #fff;
+  float: left;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 1;
+}
+/* line 70, index.scss */
+#page .wrapper {
+  width: 40%;
+  height: 30%;
+  background-color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px 80px 20px;
+}
+/* line 77, index.scss */
+#page .wrapper li {
+  display: inline-block;
+  margin: 10px;
+}
+/* line 82, index.scss */
+#page .project {
+  width: 100%;
+  height: 85%;
+  background-color: #fff;
+  border: 2px solid black;
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: 1;
+}
+/* line 90, index.scss */
+#page .project img {
+  width: 100%;
+}
+
+/* line 96, index.scss */
+.boxy {
+  position: relative;
+  width: 290px;
+  height: 100px;
+  z-index: 100;
+}
+
+/* line 103, index.scss */
+.overlay {
+  display: block;
+  position: absolute;
+  background: #000;
+  transition: all .2s;
+  left: 0;
+  width: 0;
+  height: 100px;
+  z-index: 100;
+}
+
+/* line 114, index.scss */
+.boxy.hover .overlay {
+  width: 290px;
+  z-index: 100;
+}
+/* line 117, index.scss */
+.boxy.hover .overlay li {
+  color: #fff !important;
+  left: 10px !important;
+  font-weight: bold;
+}
+
+/* line 124, index.scss */
+.skill {
+  z-index: 1;
+  width: 40%;
+  height: 240px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 30px 30px 30px;
+  padding: 0;
+}
+/* line 125, index.scss */
+.skill h2 {
+  line-height: 30px;
+  font-size: 24px;
+  padding: 0;
+  margin: 0 0 10px 0;
+  color: #31769b;
+  font-family: 'open sans';
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+/* line 143, index.scss */
+.skill li {
+  display: block;
+  padding: 5px;
+}
+
+/* line 150, index.scss */
+.slide:first-child {
+  font-size: 25px;
+}
+/* line 152, index.scss */
+.slide:first-child span {
+  font-family: 'pacifico';
+  font-size: 40px;
+}
+/* line 156, index.scss */
+.slide:first-child p:first-child {
+  margin-top: 80px;
+}
+
+/* line 162, index.scss */
+.slide:last-child {
+  padding: 0;
+  position: relative;
+  top: 0;
+}
+/* line 166, index.scss */
+.slide:last-child img {
+  width: 30% !important;
+  margin: 30px;
+}
+
+/* line 173, index.scss */
+#page .slide {
+  display: none;
+}
+/* line 175, index.scss */
+#page .slide.showing {
+  display: block;
+  z-index: 1;
+}
+
+/* line 181, index.scss */
+.hidden {
+  display: none;
+}
