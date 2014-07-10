@@ -37,26 +37,25 @@ body {
   height: 400px;
   float: left;
   z-index: 100;
-  margin-top: 15px;
 }
-/* line 38, index.scss */
+/* line 37, index.scss */
 #nav li {
   font-size: 25px;
-  margin-top: 25px;
+  margin-top: 30px;
   color: #000;
   position: relative;
   left: 0;
   transition: all .2s;
 }
 
-/* line 48, index.scss */
+/* line 47, index.scss */
 ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
-/* line 53, index.scss */
+/* line 52, index.scss */
 a {
   text-decoration: none;
   color: #31769b;
@@ -64,12 +63,12 @@ a {
   top: 0;
 }
 
-/* line 59, index.scss */
+/* line 58, index.scss */
 a:hover {
   font-weight: bold;
 }
 
-/* line 63, index.scss */
+/* line 62, index.scss */
 #page {
   width: 70%;
   height: 700px;
@@ -79,21 +78,21 @@ a:hover {
   margin: 0 auto;
   z-index: 1;
 }
-/* line 71, index.scss */
+/* line 70, index.scss */
 #page .wrapper {
   width: 40%;
   height: 30%;
   background-color: #fff;
   display: inline-block;
   vertical-align: top;
-  margin: -5px 20px 100px 20px;
+  margin: 0 20px 80px 20px;
 }
-/* line 78, index.scss */
+/* line 77, index.scss */
 #page .wrapper li {
   display: inline-block;
   margin: 10px;
 }
-/* line 83, index.scss */
+/* line 82, index.scss */
 #page .project {
   width: 100%;
   height: 85%;
@@ -103,20 +102,20 @@ a:hover {
   overflow: hidden;
   z-index: 1;
 }
-/* line 91, index.scss */
+/* line 90, index.scss */
 #page .project img {
   width: 100%;
 }
 
-/* line 97, index.scss */
+/* line 96, index.scss */
 .boxy {
   position: relative;
-  width: 290px;
+  width: 230px;
   height: 100px;
   z-index: 100;
 }
 
-/* line 104, index.scss */
+/* line 103, index.scss */
 .overlay {
   display: block;
   position: absolute;
@@ -124,23 +123,23 @@ a:hover {
   transition: all .2s;
   left: 0;
   width: 0;
-  height: 80px;
+  height: 100px;
   z-index: 100;
 }
 
-/* line 115, index.scss */
+/* line 114, index.scss */
 .boxy.hover .overlay {
-  width: 290px;
+  width: 230px;
   z-index: 100;
 }
-/* line 118, index.scss */
+/* line 117, index.scss */
 .boxy.hover .overlay li {
   color: #fff !important;
   left: 10px !important;
   font-weight: bold;
 }
 
-/* line 125, index.scss */
+/* line 124, index.scss */
 .skill {
   z-index: 1;
   width: 40%;
@@ -151,7 +150,7 @@ a:hover {
   margin: 0 30px 30px 30px;
   padding: 0;
 }
-/* line 126, index.scss */
+/* line 125, index.scss */
 .skill h2 {
   line-height: 30px;
   font-size: 24px;
@@ -162,49 +161,49 @@ a:hover {
   letter-spacing: 4px;
   text-transform: uppercase;
 }
-/* line 144, index.scss */
+/* line 143, index.scss */
 .skill li {
   display: block;
   padding: 5px;
 }
 
-/* line 151, index.scss */
+/* line 150, index.scss */
 .slide:first-child {
   font-size: 25px;
 }
-/* line 153, index.scss */
+/* line 152, index.scss */
 .slide:first-child span {
   font-family: 'pacifico';
   font-size: 40px;
 }
-/* line 157, index.scss */
+/* line 156, index.scss */
 .slide:first-child p:first-child {
   margin-top: 80px;
 }
 
-/* line 163, index.scss */
+/* line 162, index.scss */
 .slide:last-child {
   padding: 0;
   position: relative;
   top: 0;
 }
-/* line 167, index.scss */
+/* line 166, index.scss */
 .slide:last-child img {
   width: 30% !important;
   margin: 30px;
 }
 
-/* line 174, index.scss */
+/* line 173, index.scss */
 #page .slide {
   display: none;
 }
-/* line 176, index.scss */
+/* line 175, index.scss */
 #page .slide.showing {
   display: block;
   z-index: 1;
 }
 
-/* line 182, index.scss */
+/* line 181, index.scss */
 .hidden {
   display: none;
 }
