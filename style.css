@@ -86,7 +86,7 @@ engineer {
   position: absolute;
   left: 10px;
   border-radius: 8px 8px 0px 0px;
-  padding-top: 5px;
+  padding-top: 7px;
   background-color: #000; }
 
 .overlay {
@@ -115,6 +115,14 @@ engineer {
   width: 90%;
   margin: 0 auto;
   text-align: center;
-  margin-top: 40px; }
+  margin-top: 60px; }
+
+.footer {
+  width: 50%;
+  margin-left: 100px;
+  padding-top: 60px;
+  padding-bottom: 30px; }
+  .footer p {
+    font-size: 35px; }
 
 /*# sourceMappingURL=style.css.map */
