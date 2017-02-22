@@ -1,0 +1,103 @@
+body {
+  font-family: 'Cutive Mono'; }
+
+a {
+  color: #515454;
+  transition: color .5s ease; }
+  a:hover {
+    color: #000;
+    cursor: pointer; }
+
+#logo {
+  font-size: 24px;
+  width: 55px;
+  height: 55px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 100px; }
+  #logo div {
+    letter-spacing: 2px;
+    margin-left: 1px; }
+  #logo div:nth-child(2) {
+    margin-top: -3px; }
+
+#banner {
+  text-transform: uppercase;
+  font-size: 42px;
+  margin-top: 70px;
+  margin-left: 100px;
+  font-weight: bold; }
+
+engineer {
+  display: block; }
+
+#skillz {
+  display: block;
+  top: 20px;
+  position: absolute;
+  right: 20px; }
+  #skillz a:nth-child(1) {
+    margin-right: 20px; }
+
+.project {
+  width: 450px;
+  height: 300px;
+  text-transform: uppercase;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #515454;
+  display: inline-block;
+  margin: 10px; }
+  .project img {
+    width: 100%; }
+  .project span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    margin-top: 25%; }
+  .project:hover .overlay {
+    opacity: .7;
+    cursor: pointer;
+    position: absolute; }
+  .project:hover span {
+    transition: .5s ease;
+    letter-spacing: 4px;
+    margin-top: 30%;
+    opacity: 1;
+    color: #fff;
+    display: block; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000; }
+
+.project-name {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 140px;
+  z-index: 99;
+  text-align: center; }
+
+.projects-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px; }
+
+/*# sourceMappingURL=style.css.map */
