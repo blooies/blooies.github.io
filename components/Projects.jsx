@@ -7,31 +7,31 @@ class Projects extends Component {
 		this.funStuff = [
     		{ 
     			name: 'death stare battle', 
-    			image:'./images/death-stare-battle.png',
+    			image:'images/death-stare-battle.png',
                 link: 'beverlymah.com/death-stare-battle',
     			git: 'www.github.com/blooies/death-stare-battle'
     		},
     		{
     			name: 'tetris',
-    			image: './images/tetris.png',
+    			image: 'images/tetris.png',
                 link: 'beverlymah.com/tetris',
     			git: 'www.github.com/blooies/tetris',
     		},
     		{
     			name: 'snake',
-    			image: './images/snake.png',
+    			image: 'images/snake.png',
                 link: 'beverlymah.com/snake',
     			git: 'www.github.com/blooies/snake'
     		},
     		{
     			name: 'mantears',
-    			image: './images/mantears.png',
+    			image: 'images/mantears.png',
                 link: 'ibelieveicancry.club',
                 git: 'www.github.com/blooies/man_tears'
     		},
     		{
     			name: 'truckhunter',
-    			image: './images/truckhunter.png',
+    			image: 'images/truckhunter.png',
                 link: 'truckhunter.herokuapp.com',
                 git: 'www.github.com/blooies/TruckHunter'
     		}
