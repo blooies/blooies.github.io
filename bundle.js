@@ -9823,7 +9823,7 @@ var Projects = function (_Component) {
     _this.funStuff = [{
       name: 'death stare battle',
       image: 'images/death-stare-battle.png',
-      link: 'http://beverlymah.com/death-stare-battle',
+      link: 'http://death-stare-battle.herokuapp.com',
       git: 'http://www.github.com/blooies/death-stare-battle'
     }, {
       name: 'tetris',
@@ -9838,7 +9838,7 @@ var Projects = function (_Component) {
     }, {
       name: 'mantears',
       image: 'images/mantears.png',
-      link: 'http://wwww.ibelieveicancry.club',
+      link: 'http://www.ibelieveicancry.club',
       git: 'http://www.github.com/blooies/man_tears'
     }, {
       name: 'truckhunter',
