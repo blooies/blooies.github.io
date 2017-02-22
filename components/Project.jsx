@@ -5,12 +5,14 @@ class Project extends Component {
 		return (
 			<div className='project'>
 				<a href={this.props.link} target='_blank'>
-					<img src={this.props.source}></img>
+					<div className='overlay'></div>
 				</a>
-				<div className='overlay'><span>{this.props.name}</span></div>
+				<span>{this.props.name}</span>
+				<img src={this.props.source}></img>
 			</div>
 		)
 	}
 }
 
 export default Project;
+
