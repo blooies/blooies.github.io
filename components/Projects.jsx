@@ -8,25 +8,32 @@ class Projects extends Component {
     		{ 
     			name: 'death stare battle', 
     			image:'./images/death-stare-battle.png',
-    			link: 'github.com/blooies/death-stare-battle'
+                link: 'beverlymah.com/death-stare-battle',
+    			git: 'www.github.com/blooies/death-stare-battle'
     		},
     		{
     			name: 'tetris',
     			image: './images/tetris.png',
-    			link: 'github.com/blooies/tetris',
+                link: 'beverlymah.com/tetris',
+    			git: 'www.github.com/blooies/tetris',
     		},
     		{
     			name: 'snake',
     			image: './images/snake.png',
-    			link: 'github.com/blooies/snake'
+                link: 'beverlymah.com/snake',
+    			git: 'www.github.com/blooies/snake'
     		},
     		{
     			name: 'mantears',
     			image: './images/mantears.png',
+                link: 'ibelieveicancry.club',
+                git: 'www.github.com/blooies/man_tears'
     		},
     		{
     			name: 'truckhunter',
-    			image: './images/truckhunter.png'
+    			image: './images/truckhunter.png',
+                link: 'truckhunter.herokuapp.com',
+                git: 'www.github.com/blooies/TruckHunter'
     		}
     	]
 	}
@@ -38,6 +45,7 @@ class Projects extends Component {
 				source={stuff.image}
 				name={stuff.name}
 				link={stuff.link}
+                git={stuff.git}
 			/>
 		))
 	}
@@ -54,4 +62,3 @@ class Projects extends Component {
 
 
 export default Projects;
-
