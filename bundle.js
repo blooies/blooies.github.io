@@ -9476,7 +9476,7 @@ var Home = function (_Component) {
 			return _react2.default.createElement(
 				'div',
 				null,
-				'hello'
+				'hello2'
 			);
 		}
 	}]);
