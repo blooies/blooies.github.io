@@ -3,7 +3,8 @@ body {
 
 a {
   color: #515454;
-  transition: color .5s ease; }
+  transition: color .5s ease;
+  text-decoration: none; }
   a:hover {
     color: #000;
     cursor: pointer; }
