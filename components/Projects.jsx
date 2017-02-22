@@ -8,32 +8,32 @@ class Projects extends Component {
     		{ 
     			name: 'death stare battle', 
     			image:'images/death-stare-battle.png',
-                link: 'beverlymah.com/death-stare-battle',
-    			git: 'www.github.com/blooies/death-stare-battle'
+                link: 'http://beverlymah.com/death-stare-battle',
+    			git: 'http://www.github.com/blooies/death-stare-battle'
     		},
     		{
     			name: 'tetris',
     			image: 'images/tetris.png',
-                link: 'beverlymah.com/tetris',
-    			git: 'www.github.com/blooies/tetris',
+                link: 'http://beverlymah.com/tetris',
+    			git: 'http://www.github.com/blooies/tetris',
     		},
     		{
     			name: 'snake',
     			image: 'images/snake.png',
-                link: 'beverlymah.com/snake',
-    			git: 'www.github.com/blooies/snake'
+                link: 'http://beverlymah.com/snake',
+    			git: 'http://www.github.com/blooies/snake'
     		},
     		{
     			name: 'mantears',
     			image: 'images/mantears.png',
-                link: 'ibelieveicancry.club',
-                git: 'www.github.com/blooies/man_tears'
+                link: 'http://www.ibelieveicancry.club',
+                git: 'http://www.github.com/blooies/man_tears'
     		},
     		{
     			name: 'truckhunter',
     			image: 'images/truckhunter.png',
-                link: 'truckhunter.herokuapp.com',
-                git: 'www.github.com/blooies/TruckHunter'
+                link: 'http://truckhunter.herokuapp.com',
+                git: 'http://www.github.com/blooies/TruckHunter'
     		}
     	]
 	}

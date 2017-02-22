@@ -9822,29 +9822,29 @@ var Projects = function (_Component) {
 
     _this.funStuff = [{
       name: 'death stare battle',
-      image: './images/death-stare-battle.png',
-      link: 'beverlymah.com/death-stare-battle',
-      git: 'www.github.com/blooies/death-stare-battle'
+      image: 'images/death-stare-battle.png',
+      link: 'http://beverlymah.com/death-stare-battle',
+      git: 'http://www.github.com/blooies/death-stare-battle'
     }, {
       name: 'tetris',
-      image: './images/tetris.png',
-      link: 'beverlymah.com/tetris',
-      git: 'www.github.com/blooies/tetris'
+      image: 'images/tetris.png',
+      link: 'http://beverlymah.com/tetris',
+      git: 'http://www.github.com/blooies/tetris'
     }, {
       name: 'snake',
-      image: './images/snake.png',
-      link: 'beverlymah.com/snake',
-      git: 'www.github.com/blooies/snake'
+      image: 'images/snake.png',
+      link: 'http://beverlymah.com/snake',
+      git: 'http://www.github.com/blooies/snake'
     }, {
       name: 'mantears',
-      image: './images/mantears.png',
-      link: 'ibelieveicancry.club',
-      git: 'www.github.com/blooies/man_tears'
+      image: 'images/mantears.png',
+      link: 'http://wwww.ibelieveicancry.club',
+      git: 'http://www.github.com/blooies/man_tears'
     }, {
       name: 'truckhunter',
-      image: './images/truckhunter.png',
-      link: 'truckhunter.herokuapp.com',
-      git: 'www.github.com/blooies/TruckHunter'
+      image: 'images/truckhunter.png',
+      link: 'http://truckhunter.herokuapp.com',
+      git: 'http://www.github.com/blooies/TruckHunter'
     }];
     return _this;
   }
