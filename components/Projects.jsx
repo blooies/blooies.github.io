@@ -8,7 +8,7 @@ class Projects extends Component {
     		{ 
     			name: 'death stare battle', 
     			image:'images/death-stare-battle.png',
-                link: 'http://beverlymah.com/death-stare-battle',
+                link: 'http://death-stare-battle.herokuapp.com',
     			git: 'http://www.github.com/blooies/death-stare-battle'
     		},
     		{
