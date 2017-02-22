@@ -66,22 +66,20 @@ engineer {
   img {
     width: 100%;
   }
+  span {
+    margin-top: 25%;
+  }
   &:hover .overlay {
     opacity: .7;
     cursor: pointer;
-    a {
+    span {
       transition: .5s ease;
       letter-spacing: 4px;
+      margin-top: 30%;
+      color: #fff;
+      display: block;
     }
   }
-  a {
-    color: #fff;
-    top: 40%;
-    position: relative;
-    cursor: pointer;
-    text-decoration: none;
-  }
-
 }
 
 .overlay {

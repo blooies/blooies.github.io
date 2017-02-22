@@ -52,18 +52,17 @@ engineer {
   margin: 10px; }
   .project img {
     width: 100%; }
+  .project span {
+    margin-top: 25%; }
   .project:hover .overlay {
     opacity: .7;
     cursor: pointer; }
-    .project:hover .overlay a {
+    .project:hover .overlay span {
       transition: .5s ease;
-      letter-spacing: 4px; }
-  .project a {
-    color: #fff;
-    top: 40%;
-    position: relative;
-    cursor: pointer;
-    text-decoration: none; }
+      letter-spacing: 4px;
+      margin-top: 30%;
+      color: #fff;
+      display: block; }
 
 .overlay {
   position: absolute;
