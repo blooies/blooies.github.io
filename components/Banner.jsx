@@ -6,7 +6,7 @@ class Banner extends Component {
 			<div>
 				<div id='skillz'>
 					<a href='http://www.github.com/blooies' target='_blank'>github</a>
-					<a href='http://www.linkedin.com/bevmah' target='_blank'>linkedin</a>
+					<a href='http://www.linkedin.com/in/bevmah' target='_blank'>linkedin</a>
 				</div>
 				<div id='banner'>
 					<bev>Beverly Mah,</bev>

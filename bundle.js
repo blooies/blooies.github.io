@@ -9565,7 +9565,7 @@ var Banner = function (_Component) {
 					),
 					_react2.default.createElement(
 						'a',
-						{ href: 'http://www.linkedin.com/bevmah', target: '_blank' },
+						{ href: 'http://www.linkedin.com/in/bevmah', target: '_blank' },
 						'linkedin'
 					)
 				),
