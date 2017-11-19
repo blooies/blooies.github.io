@@ -20,4 +20,3 @@ class Project extends Component {
 }
 
 export default Project;
-
