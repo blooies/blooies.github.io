@@ -10,6 +10,7 @@
 html,
 body {
   color: var(--main-color);
+  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
 }
