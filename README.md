@@ -1,4 +1,4 @@
-website2.0
+website 3.0
 ==========
 
-playing around with github.io
+static website for beverlymah.com
